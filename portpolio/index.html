@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="stylesheet.css" type="text/css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <script>
+    // Add smooth scrolling to all links in the navigation menu
+    document.querySelectorAll('.navigation-menu a').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1); // Remove the "#" symbol
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+          targetSection.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+<div class="is-responsive">
+  <header>
+
+    <div class="nav-bar">
+      <div class="icon">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </div>
+      <div class="nav-section">
+        <div class="home">
+          <a href="#home">Home</a>
+        </div>
+        <div class="about">
+          <a href="#aboutus">About</a>
+        </div>
+        <div class="projects">
+          <a href="#project">Projects</a>
+        </div>
+        <div class="skills">
+          <a href="#skill-sec">Skills</a>
+        </div>
+        <div class="qualification">
+          <a href="#qualification-sec">Qualification</a>
+        </div>
+        <div class="contacts">
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <button class="ccb" onclick="colorchd()"><i class="fa-solid fa-moon changebc"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="main_body">
+      <div class="headings" style="--l:35%;--t:10%;">
+        <h1>MYLIO</h1>
+      </div>
+      <div class="intro-text">
+        <P>
+        <h1>Hey</h1><br><br>USER here!<br><br><br>
+        <h2>Wats up!!</h2><br><br><br><br>
+        Wanna Known more about me
+        </p>
+      </div>
+      <div class="arrow-image">
+        <img src="images2.png">
+        <!-- <i class="fa-solid fa-arrow-trend-up"></i> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About section  -->
+
+  <section id="aboutus">
+    <br><br><br><br><br><br><br>
+    <div class="aboutisec">
+      <div class="headings" style="--l:60%;">
+        <h1>My Introduction</h1>
+      </div>
+      <div class="aboutimg">
+        <img src="about-us.png">
+      </div>
+      <div class="intro" >
+        <p>
+          My self USER a enthusistic web developer with a certain stage.Beginer in the field of
+          developing .Also a sportsman ,very muvh intersted in cricket. From Katol ,Maharashtra.lorem28
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, velit. Optio cumque aliquid dolorum
+          blanditiis quos doloribus modi beatae possimus assumenda eius, quisquam sunt odio omnis. Eius aut temporibus
+          vel facere quam, nulla omnis qui, inventore natus, quisquam quis iste?
+        </p>
+      </div>
+
+
+    </div>
+  </section>
+
+                        <!-- section project  -->
+  <section id="project">
+    <br><br><br>
+    <div class="headings" style="--l:45%;--t:212%"><h1>My Project</h1></div>
+
+    <div class="port-pro">
+      <div class="port">
+      <div class="port-img" style="--l: 10%;">
+        <h2 class="headingpro">Servantic</h2>
+        <a href="https://github.com/atharva0574/atharvagithub">
+          <img src="sevantic.jpeg" alt="project">
+          <a>
+      </div>
+      </div>
+      <div class="port-info" style="--l: 13%;">
+        <p>Servantic is a comand line tool which means server analytic tool.Which can be used to analysis the logs
+          recordede in the server or databases . With this one will get to know about number of request the end user has
+          made and how many of them are successful and how many are unsuccessful also you will be getting data about how
+          they are scattered in different months and different hours
+          means it will give the the number og request in particular month and year and particular hour of the
+          day...If want to see the src code click on image.
+        </p>
+      </div>
+    </div>
+
+    <div class="port-pro">
+      <div class="port">
+      <div class="port-img" style="--l: 40%;">
+        <h2 class="headingpro">Portpolio</h2>
+        <a href="https://github.com/atharva0574/atharvagithub">
+          <img src="port.jpeg" alt="project" height="250px" >
+        <a>
+      </div>
+      </div>
+      <div class="port-info" style="--l: 43%;">
+        <p>Servantic is a comand line tool which means server analytic tool.Which can be used to analysis the logs
+          recordede in the server or databases . With this one will get to know about number of request the end user has
+          made and how many of them are successful and how many are unsuccessful also you will be getting data about how
+          they are scattered in different months and different hours
+          means it will give the the number og request in particular month and year and particular hour of the
+          day...If want to see the src code click on image.
+        </p>
+      </div>
+    </div>
+
+    <div class="port-pro">
+      <div class="port">
+      <div class="port-img" style="--l: 70%;">
+        <h2 class="headingpro">Amazone Clone</h2>
+        <a href="https://github.com/atharva0574/atharvagithub">
+          <img src="amazon.jpeg" alt="project" width="300px" height="300px">
+          <a>
+      </div>
+      </div>
+      <div class="port-info" style="--l: 73%;">
+        <p>Servantic is a comand line tool which means server analytic tool.Which can be used to analysis the logs
+          recordede in the server or databases . With this one will get to know about number of request the end user has
+          made and how many of them are successful and how many are unsuccessful also you will be getting data about how
+          they are scattered in different months and different hours
+          means it will give the the number og request in particular month and year and particular hour of the
+          day...If want to see the src code click on image.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!--Section four achievements  -->
+  <section id="skill-sec">
+    <div class="skill-box">
+      <div class="headings" style="--t:330%;--l:37%;">
+        <h1>WEB-DEVELOPEMENT</h1>
+      </div>
+      <div class="cpp" style="--t:361%;">
+        <div class="color" style="--w:70%">
+          <p>C++</p>
+          <p>70%</p>
+        </div>
+
+      </div>
+      <div class="java" style="--t:368%;">
+        <div class="color1" style="--w:40%">
+          <p>JAVA</p>
+          <p>40%</p>
+        </div>
+      </div>
+      <div class="sql" style="--t:354%;">
+        <div class="color2" style="--w:60%">
+          <p>SQL</p>
+          <p>60%</p>
+        </div>
+      </div>
+      <div class="css" style="--t:347%;">
+        <div class="color3" style="--w:70%">
+          <p>CSS</p>
+          <p>70%</p>
+        </div>
+      </div>
+      <div class="html" style="--t:340%;">
+        <div class="color4" style="--w:90%">
+          <p>HTML</p>
+          <p>80%</p>
+        </div>
+      </div>
+  </section>
+
+  <!--section five qualificaiton section-->
+  <section id="qualification-sec">
+    <div class="headings" style="--t:410%;--l:40%;">
+      <h1>MY QUALIFICATIONS</h1>
+    </div>
+    <div class="qulification">
+      <div class="first-qua">
+        <div class="qua1-text">
+          <h1>Diploma in IT</h1>
+          <span>After 10th started with the diploma in information technology from Government Polythenic nagpur.</span>
+        </div>
+        <div class="rounder1" style="--b:85%"></div>
+        <div class="line1" style="--b:65%;"></div>
+      </div>
+
+      <div class="second-qua">
+        <div class="qua2-text" style="--l:63%;--b:53%">
+          <h1>Diploma in IT</h1>
+          <span>After 10th started with the diploma in information technology from Government Polythenic nagpur.</span>
+        </div>
+        <div class="rounder2" style="--b:63%"></div>
+        <div class="line2" style="--b:43%;"></div>
+      </div>
+
+      <div class="third-qua">
+        <div class="qua3-text" style="--b:30%">
+          <h1>Diploma in IT</h1>
+          <span>After 10th started with the diploma in information technology from Government Polythenic nagpur.</span>
+        </div>
+        <div class="rounder3" style="--b:41%"></div>
+        <div class="line3" style="--b:21%;"></div>
+      </div>
+
+      <div class="fourth-qua">
+        <div class="qua4-text" style="--l:63.9%;--b:10%">
+          <h1>Diploma in IT</h1>
+          <span>After 10th started with the diploma in information technology from Government Polythenic nagpur.</span>
+        </div>
+        <div class="rounder4" style="--b:19%"></div>
+        <!-- <div class="line3"></div> -->
+      </div>
+    </div>
+  </section>
+
+  <!--section six contact section-->
+  <section id="contact">
+    <div class="headings" style="--t:515%;--l:45%;">
+      <h1>CONTACT</h1>
+    </div>
+    <div class="mobile-number">
+      <div class="call-icon">
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      <div class="call-me">Call Me</div>
+      <p>+91 9322246114</p>
+    </div>
+
+    <div class="mail">
+      <div class="mail-icon">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="mail-at">Mail At</div>
+      <p>atharvabhajan0574@gmail.com</p>
+    </div>
+
+    <div class="fllow">
+      <p>Follow Me At</p>
+    </div>
+    <div class="follow-icons">
+    <div class="insta">
+      <a href="https://www.instagram.com/athar_va8916/"><i class="fa-brands fa-instagram icon-c"></i></a>
+    </div>
+    <div class="twitter">
+      <a href="#"><i class="fa-brands fa-square-x-twitter icon-c"></i></a>
+    </div>
+    <div class="facebook">
+      <a href="#"><i class="fa-brands fa-facebook-messenger icon-c"></i></a>
+    </div>
+  </div>
+
+  
+  </section>
+  <footer>
+    <div class="made-by"><p>By ATHARVA BHAJAN </p></div>
+    <div><p>  &copy; and &#169; APB Developers</p></div>
+  </footer>
+
+</div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
